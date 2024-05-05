@@ -1,6 +1,6 @@
 # Tinder for Jobs
 
-![alt text](images/frog.jpg)
+![alt text](images/buisness.webp)
 
 This my Level 3 NCEA project for my Digital Technologies
 
