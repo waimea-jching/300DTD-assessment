@@ -1,8 +1,8 @@
 # The Design of a Database-Driven Web Application for NCEA Level 3
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Tinder For Jobs**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **Josiah Ching**
 
 Assessment Standards: **91902** and **91903**
 
@@ -14,6 +14,9 @@ Assessment Standards: **91902** and **91903**
 ### Identified Need or Problem
 
 Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
+
+**A website business for students that want to leave school to go forward with jobs and apprenticeships.**
+
 
 ### End-User Requirements
 
