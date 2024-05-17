@@ -1,6 +1,6 @@
-# The Design of a Database-Driven Web Application for NCEA Level 3
+# Design of a Database-Driven Web Application for NCEA Level 3
 
-Project Name: **Tinder For Jobs**
+Project Name: **Library Mystery Room**
 
 Project Author: **Josiah Ching**
 
@@ -13,18 +13,16 @@ Assessment Standards: **91902** and **91903**
 
 ### Identified Need or Problem
 
-Replace this text with a clearly stated problem or need that exists that your project will attempt to solve / fulfil.
-
-**A website business for students that want to leave school to go forward with jobs and apprenticeships.**
+Miss Chapman the school librarian ad buisness studies teacher needs an introductery for library rules that is fun and ingaging to  year 9 students.
 
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+The end users are year 9 students aged 13-14 so they will be expecting a page that runs without constant load times and is ingaging aswell as well thought out questions to really drive home the lessons and rules that will be learned.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+I intend to make a web-site that year 9 students will go onto when directed by the librian on there introductery of the library and will be a fun trivia/mystery room style game that will teach the library house rules by asking questions about a specific area within the library and rewarding correct answers and penalising on incorrect answers to encourage a competitive or "gamey" feel. The key functionality will be creating a learning enviroment within the web-site.
 
 
 -------------------------------------------------
@@ -146,3 +144,4 @@ Replace this text with brief notes showing how the UX principle was addressed in
 ### Review of UX PRINCIPLE NAME HERE
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
