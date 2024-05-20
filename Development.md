@@ -1,8 +1,8 @@
 # Development of a Database-Driven Web Application for NCEA Level 3
 
-Project Name: **PROJECT NAME HERE**
+Project Name: **Library Mystery Room**
 
-Project Author: **YOUR NAME HERE**
+Project Author: **Josiah Ching**
 
 Assessment Standards: **91902** and **91903**
 

@@ -29,13 +29,13 @@ I intend to make a web-site that year 9 students will go onto when directed by t
 
 ## Relevant Implications
 
-### IMPLICATION NAME HERE
+### Aesthetic
 
-Replace this text with a clear explanation of what the implication means.
+Aesthetic implication is whether the website or app looks appealing to the end user and has design elements that are easy to follow and have meaning.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is relevant to my project because the app/website will be showed and used by teachers and students alike so it needs to look clean and sharp so that they are able to follow the questions and story path or the website, aswell as being attractive to eye to further ingage students.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Moving froward with my project i will be making sure to build good platforms and layout all the information presented to the user in a way that i can style to be as easy to digest as possible for the users and having that good layout will majorly improve that. I will also need to consider the color scheme that will be suited best for this project and how to implement it as a go through development. This project will be heavely impactd by the aesthetic implication as it will be the main way of drawing the young students attention.
 
 ### IMPLICATION NAME HERE
 
