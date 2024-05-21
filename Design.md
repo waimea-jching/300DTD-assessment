@@ -37,13 +37,13 @@ This implication is relevant to my project because the app/website will be showe
 
 Moving froward with my project i will be making sure to build good platforms and layout all the information presented to the user in a way that i can style to be as easy to digest as possible for the users and having that good layout will majorly improve that. I will also need to consider the color scheme that will be suited best for this project and how to implement it as a go through development. This project will be heavely impactd by the aesthetic implication as it will be the main way of drawing the young students attention.
 
-### IMPLICATION NAME HERE
+### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+The functionality implication is where the website/app is working to how it should or is expected to and works very well with minimal buga and glitches.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+Functionality is relevant because of my mystery room/game style of website it is very important that it works as intended so end users dont run into bugs or weird glitches that will ruin the experience of the website aswell as end users not being let down the wrong path of the game due to a bug or error and confusing them.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When moving forward i will be making sure to test and test for bugs aswell as make the code as simple as i can for the intended outcome coming out to less bugs. I will also have to consider how the end users might interact with the website so i can plan and code the features accordinly fo that. This implication will have a big impact because the website will need to function how the endusers expect and be bug free for them aswell.
 
 ### IMPLICATION NAME HERE
 
