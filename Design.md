@@ -22,7 +22,7 @@ The end users are year 9 students aged 13-14 so they will be expecting a page th
 
 ### Proposed Solution
 
-I intend to make a web-site that year 9 students will go onto when directed by the librarian on there introductory of the library and will be a fun trivia/mystery room style game that will teach the library house rules by asking questions about a specific area within the library and rewarding correct answers and penalising on incorrect answers to encourage a competitive or "gamey" feel. The key functionality will be creating a learning environment within the web-site.
+I intend to make a web-site that year 9 students will go onto when directed by the librarian on there introductory of the library and will be a fun trivia/mystery room style game that will teach the library house rules by asking questions about a specific area within the library and rewarding correct answers and penalising on incorrect answers to encourage a competitive or "gamey" feel. The key functionality will be creating a learning environment within the web-site that can be manipulated by Miss Chapman or a teacher by using an admin login and really focusing the questions to the current room/section they are currently in.
 
 
 -------------------------------------------------
@@ -43,13 +43,13 @@ The functionality implication is where the website/app is working to how it shou
 
 Functionality is relevant because of my mystery room/game style of website it is very important that it works as intended so end users dont run into bugs or weird glitches that will ruin the experience of the website as well as end users not being let down the wrong path of the game due to a bug or error and confusing them.
 
-When moving forward i will be making sure to test and test for bugs as well as make the code as simple as i can for the intended outcome coming out to less bugs. I will also have to consider how the end users might interact with the website so i can plan and code the features accordingly fo that. This implication will have a big impact because the website will need to function how the end-users expect and be bug free for them as well.
+When moving forward i will be making sure to test for bugs. I will also have to consider how the end users might interact with the website so i can plan and code the features accordingly for that. Also when moving forward i will implement my features such as admin login for Miss Chapman or any other teacher that uses it, setting up the rooms and the questions that go with that room making sure i think about my other relevant implications Aesthetics and Accessibility making a functioning experience. This implication will have a big impact because the website will need to function how the end-users expect and be bug free for them as well.
 
-### IMPLICATION NAME HERE
+### Accessibility
 
-Replace this text with a clear explanation of what the implication means.
+Accessibility is all people can use it regardless of device or medical problem such as color blindness or impaired vision.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+This implication is relevant because a range of young people all on different devices will be logging on and using this website. Some users may even have impaired vision or color blindness. So creating a website that is accessible by everyone is very important for this project.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
