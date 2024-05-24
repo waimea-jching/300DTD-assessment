@@ -64,9 +64,9 @@ Showing the users what is happening during loading screens or showing progress o
 
 Showing the users there status as there going through the levels and different rooms is very important so they can expect when to finish that section and move onto the next and have a sense of where they are and where they are going, also making sure to give feedback when they provide input whether its lighting up the button or showing some sort of message.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+I will make sure to consider what the user will expect when a button is clicked or what is showed when there answer is correct and what information they expect to see. The Visibility of System Status will be very important for this project as it will be the window for users to get the information they need and expect.
 
-### UX PRINCIPLE NAME HERE
+### Error Prevention
 
 Replace this text with a clear explanation of what the UX design principle means.
 
