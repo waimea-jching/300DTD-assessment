@@ -51,18 +51,18 @@ Accessibility is all people can use it regardless of device or medical problem s
 
 This implication is relevant because a range of young people all on different devices will be logging on and using this website. Some users may even have impaired vision or color blindness. So creating a website that is accessible by everyone is very important for this project.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+The project wil be impacted by this implication cause allowing every and any student no matter what device or impaired ability is very important cause this is a learning tool made for them. So moving forward in my project especially within the front-end so making the UI such as headings nav menus button scale and position them selves accordingly with screen size and space. Another thing is the positioning of sections or chunks of UI making sure to code them in places that make sense and will allow them to be flexible with screen size differences.
 
 
 -------------------------------------------------
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Visibility of System Status
 
-Replace this text with a clear explanation of what the UX design principle means.
+Showing the users what is happening during loading screens or showing progress of some sort action as well as informing users with messages alerting them to what is going on.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+Showing the users there status as there going through the levels and different rooms is very important so they can expect when to finish that section and move onto the next and have a sense of where they are and where they are going, also making sure to give feedback when they provide input whether its lighting up the button or showing some sort of message.
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
