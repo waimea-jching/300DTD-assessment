@@ -68,19 +68,19 @@ I will make sure to consider what the user will expect when a button is clicked 
 
 ### Error Prevention
 
-Replace this text with a clear explanation of what the UX design principle means.
+Error prevention is stopping the user before a big commitment or change and asking for confirmation that this is the action they wanna take this used to stop unintentional mistakes and errors on the users end.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+Error prevention will be a big part of making sure that answers they select and decisions that are user made are the intended actions of the user.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+Big thing moving forward will be getting users that fit the intended end user to test these error prevention features to mke sure that users are not getting asked for confirmation for things that do not need to be as well as stakeholder feedback big confirmations to see if they are necessary. I will also be making sure to thoroughly test for loop holes in the game, to make sure users cant run them selves into glitches and bugs
 
-### UX PRINCIPLE NAME HERE
+### Aesthetic and Minimalist Design
 
-Replace this text with a clear explanation of what the UX design principle means.
+Keeping the UI simple and easy to follow. Use minimalist features to eliminate crowding on the page and only show necessary information.
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+When presenting the necessary information such as question number which level/area as well as minimap and the question at hand and answers to my users it will have to be presented in a minimalist way to stop cluttering and confusion and actually get this information to the user effectively.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+Moving froward this will go hand and hand with my aesthetic relevant implication in making sure i really think from my users position and get feedback from my stakeholder with new designs and placement of information to make sure tht the changes i make are actually the right changes for the end users.
 
 
 -------------------------------------------------
