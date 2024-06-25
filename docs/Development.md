@@ -11,21 +11,26 @@ Assessment Standards: **91902** and **91903**
 
 ## Design, Development and Testing Log
 
-### DATE HERE
+### 21/06/2024
 
-Replace this test with what you are working on
+I am working on a rough sketch up of the main questionnaire page on Figma
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![questionnaire page](images/questionaire-page-snip.png)
+i just did a rough mark up to show the layout of the library map, question text and answer buttons. Will be subject to change as i move forward.
+
+![alt text](images/library-map-markup.png)
+This is how i plan to show what library section the question is themed to, by segregating the library into sections and highlighting the current section that the questions are focused around.
 
 > Replace this text with any user feedback / comments
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 25/06/24
 
-Replace this test with what you are working on
+Simple access/home page for students and admins
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](images/access-page-snip.png)
+This is a very simple design just 3 squares and 2 lots of text but the only purpose of this page is for the teacher/admin to be able to gain access to the admin properties of the game.
 
 > Replace this text with any user feedback / comments
 
