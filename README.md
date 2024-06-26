@@ -2,7 +2,7 @@
 
 This is my Level 3 NCEA project for Digital Technologies
 
-![Waimea College](images/waimea-college.jpg)
+![Waimea College](docs/images/waimea-college.jpg)
 
 It is a database-driven web app that allows users to:
 
