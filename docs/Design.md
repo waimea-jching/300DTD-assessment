@@ -89,7 +89,7 @@ Moving froward this will go hand and hand with my aesthetic relevant implication
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![alt text](images/drawSQL-diagram_2.png)
 
 ### User Interface Design
 
