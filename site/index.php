@@ -20,7 +20,7 @@ $router = new Router(['debug' => true]);
 //-------------------------------------------------------------
 // Define routes
 
-$router->route(GET, PAGE, '/',      'pages/home.php');
+$router->route(GET, PAGE, '/',      'pages/home.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
 
 
