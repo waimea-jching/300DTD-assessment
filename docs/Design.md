@@ -93,8 +93,9 @@ Moving froward this will go hand and hand with my aesthetic relevant implication
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
-
+![alt text](images/questionaire-page-snip.png)
+![alt text](images/library-map-markup.png)
+![alt text](images/access-page-snip.png)
 
 -------------------------------------------------
 
