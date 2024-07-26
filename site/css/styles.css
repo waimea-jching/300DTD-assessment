@@ -2,7 +2,7 @@
     --font-size:         1rem;
 
     --border-color:      var(--pico-muted-border-color);
-    --accent-color:      var(--pico-color-pumpkin);
+    --accent-color:      var(--pico-color-pumpkin)
 
     --link-active-color: var(--accent-color);
 }
@@ -34,6 +34,12 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: inherit;
+}
+
+#welcome-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 
 
@@ -71,6 +77,14 @@ main {
     max-width: 60rem;
 }
 
+main.hero {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
 
 /* LAYOUT ---------------------------------------- */
 
@@ -84,4 +98,3 @@ article {
     border: 1px solid var(--border-color);
     min-height: 6rem;
 }
-
