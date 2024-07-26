@@ -98,3 +98,9 @@ article {
     border: 1px solid var(--border-color);
     min-height: 6rem;
 }
+
+/* FORMS ------------------------------------------------*/
+
+#creation-key-form {
+    width: 15rem;
+}
