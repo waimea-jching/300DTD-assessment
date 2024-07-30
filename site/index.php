@@ -22,8 +22,7 @@ $router = new Router(['debug' => true]);
 
 $router->route(GET, PAGE, '/', 'pages/welcome.php', 'layouts/welcome_layout.php');
 $router->route(GET, PAGE, '/intro', 'pages/introduction.php', 'layouts/hero.php');
-$router->route(GET, PAGE, '/adminLogin', 'pages/adminLogin.php', 'layouts/admin_layout.php');
-$router->route(GET, PAGE, '/validateKey', 'actions/validate-key.php');
+$router->route(GET, PAGE, '/adminLogin', 'pages/adminLogin.php', 'layouts/hero.php');
 
 
 //-------------------------------------------------------------
