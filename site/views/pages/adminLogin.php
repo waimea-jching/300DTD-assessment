@@ -1,6 +1,6 @@
 <h1>ADMIN ACCESS</h1>
 
-<form action="processLogin" id="adminLoginForm">
+<form action="login" id="adminLoginForm">
     <input type="text" name='username' value='username...'>
     <input type="text" name='pass' value='password...'>
 
