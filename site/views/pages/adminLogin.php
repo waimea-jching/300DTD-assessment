@@ -1,5 +1,9 @@
 <h1>ADMIN ACCESS</h1>
 
-<form action="validateKey" id="creation-key-form">
-    <input type="text" name='key' value='creation key...'>
+<form action="processLogin" id="adminLoginForm">
+    <input type="text" name='username' value='username...'>
+    <input type="text" name='pass' value='password...'>
+
+    <input type="submit" value="Login">
 </form>
+<p><a href="/adminSignup" role="button">Admin Creation</a></p>

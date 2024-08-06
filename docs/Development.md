@@ -56,13 +56,15 @@ The Database and all the tables have been made and are on the server ready to be
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 6/08/24
 
-Replace this test with what you are working on
+Admin login and signup
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](<images/library home page.png>)
+![alt text](<images/admin login (creation key).png>)
+I started creating a sytem where the admin or teachers would need a key to create and login into there admin accounts to tweak and modify the game making sure that no student would be able to get in and change the game without permission and a key.
 
-> Replace this text with any user feedback / comments
+> The system is to complicated and is very clunky to use. A system where you can just simply sign in with a username and password and create an admin account freely but a created account has to be set to to admin status by me through the database or an existing admin.
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
