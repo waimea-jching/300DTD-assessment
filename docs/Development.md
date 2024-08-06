@@ -66,7 +66,9 @@ I started creating a sytem where the admin or teachers would need a key to creat
 
 > The system is to complicated and is very clunky to use. A system where you can just simply sign in with a username and password and create an admin account freely but a created account has to be set to to admin status by me through the database or an existing admin.
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+I ended up changing the whole admin set up by going off the user feedback and using a more simple method. Ive started with changing the sign in form and sign up form.
+![alt text](<images/admin login(sign in).png>)
+![alt text](<images/admin signup.png>)
 
 ### DATE HERE
 
