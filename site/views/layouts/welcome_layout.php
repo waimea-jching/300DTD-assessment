@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <?php require '_head.php'; ?>
+    <?php 
+        require '_head.php'; 
+        $loggedIn = $_SESSION['admin']['loggedIn'] ?? false;
+    ?>
 
     <body>
 
         <header id="welcome-header"> 
-            <a href="/adminLogin" role="button">ADMIN</a>
+            <?php
+                if (!$loggedIn) echo '<a href="/adminLogin" role="button">ADMIN</a>';
+                if ($loggedIn) '<a href="/logout" role="button">LOGOUT</a>';
+            ?>
         </header>
 
         <main class="hero">

@@ -13,28 +13,34 @@ $stmt = $db->prepare($query);
 $stmt->execute([]);
 $usersData = $stmt->fetchAll();
 
+$userExists = false;
 foreach ($usersData as $userData){
     if ($user == $userData['username']){
-        $_SESSION['adminSignup']['username']['error'] = 'Username Taken!! try another one';
-        header('location: adminSignup');
+        $userExists = true;
     }
 }
 
-$hash = password_hash($pass, PASSWORD_DEFAULT);
+if($userExists) {
+    $_SESSION['adminSignup']['username']['error'] = 'Username Taken!! try another one';
+    header('location: adminSignup');
+}
+else {
+    $hash = password_hash($pass, PASSWORD_DEFAULT);
 
-$db = connectToDB();
+    $db = connectToDB();
 
-$query = 'INSERT INTO adminLogins (forename, surname, username, hash) VALUES (?, ?, ?, ?)';
-$stmt = $db->prepare($query);
-$stmt->execute([$fore, $sur, $user, $hash]);
-$userData = $stmt->fetch();
+    $query = 'INSERT INTO adminLogins (forename, surname, username, hash) VALUES (?, ?, ?, ?)';
+    $stmt = $db->prepare($query);
+    $stmt->execute([$fore, $sur, $user, $hash]);
+    $userData = $stmt->fetch();
 
-$_SESSION['adminSignup']['username']['error'] = '';
+    $_SESSION['adminSignup']['username']['error'] = '';
 
-$_SESSION['admin']['loggedIn'] = true;
-$_SESSION['admin']['forename'] = $userData['forename'];
-$_SESSION['admin']['surname'] = $userData['surname'];
+    $_SESSION['admin']['loggedIn'] = true;
+    $_SESSION['admin']['forename'] = $userData['forename'];
+    $_SESSION['admin']['surname'] = $userData['surname'];
 
-header('location: welcome');
+    header('location: welcome');
+}
 
 ?>

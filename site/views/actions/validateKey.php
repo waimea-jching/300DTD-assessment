@@ -2,15 +2,21 @@
 
 require_once 'lib/db.php';
 
-$key = $_GET['key'];
-consoleLog($key);
+consoleLog($_GET);
 
-$hash = password_hash($key, PASSWORD_DEFAULT);
+$key = $_GET['key'];
 
 $db = connectToDB();
 
-$query = 'INSERT INTO keys (hash) VALUES (?)';
+$query = 'SELECT `hash` FROM `keys`';
 $stmt = $db->prepare($query);
-$stmt->execute([$hash]);
+$stmt->execute();
+$hashes = $stmt->fetchAll();
+
+foreach($hashes as $hash) {
+    $_SESSION['canCreateAccount'] = password_verify($key, $hash['hash']);
+}
+
+header('location: adminSignup');
 
 ?>

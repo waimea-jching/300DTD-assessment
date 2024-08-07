@@ -1,6 +1,12 @@
 <h1>ADMIN CREATION</h1>
 
-<?php $userError = $_SESSION['adminSignup']['username']['error'] ?? '';  ?>
+<?php 
+    $userError = $_SESSION['adminSignup']['username']['error'] ?? '';  
+
+    $allowed = $_SESSION['canCreateAccount'] ?? false;
+
+    if (!$allowed) header('location: welcome');
+?>
 
 <form action="signup" id="adminLoginForm">
     <?php echo '<p>'.$userError.'</p>'; ?>
