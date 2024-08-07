@@ -35,6 +35,6 @@ $_SESSION['admin']['loggedIn'] = true;
 $_SESSION['admin']['forename'] = $userData['forename'];
 $_SESSION['admin']['surname'] = $userData['surname'];
 
-header('location: intro');
+header('location: welcome');
 
 ?>
