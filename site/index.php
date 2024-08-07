@@ -13,6 +13,15 @@ const SITE_OWNER = 'Waimea College';
 
 
 //-------------------------------------------------------------
+// Setup a session
+session_name('session');
+session_start();
+
+$userName   = $_SESSION['admin']['name']     ?? 'Student';
+$isLoggedIn = $_SESSION['admin']['loggedIn'] ?? false;
+
+
+//-------------------------------------------------------------
 // Initialise the router
 $router = new Router(['debug' => true]);
 
@@ -25,6 +34,7 @@ $router->route(GET, PAGE, '/intro', 'pages/introduction.php', 'layouts/hero.php'
 $router->route(GET, PAGE, '/adminLogin', 'pages/adminLogin.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/adminSignup', 'pages/adminSignup.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/login', 'actions/processLogin.php');
+$router->route(GET, PAGE, '/validateKey', 'actions/validateKey.php');
 $router->route(GET, PAGE, '/signup', 'actions/processSignup.php');
 
 

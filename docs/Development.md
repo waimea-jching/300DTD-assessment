@@ -70,11 +70,13 @@ I ended up changing the whole admin set up by going off the user feedback and us
 ![alt text](<images/admin login(sign in).png>)
 ![alt text](<images/admin signup.png>)
 
-### DATE HERE
+### 07/08/24
 
-Replace this test with what you are working on
+Admin Sign up
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](<images/Screenshot 2024-08-07 101710.png>)
+![alt text](<images/Screenshot 2024-08-07 101720.png>)
+
 
 > Replace this text with any user feedback / comments
 

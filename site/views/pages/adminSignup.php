@@ -1,6 +1,9 @@
 <h1>ADMIN CREATION</h1>
 
+<?php $userError = $_SESSION['adminSignup']['username']['error'] ?? '';  ?>
+
 <form action="signup" id="adminLoginForm">
+    <?php echo '<p>'.$userError.'</p>'; ?>
     <input type="text" name='user' value='username...'>
     <input type="text" name='pass' value='password...'>
 
