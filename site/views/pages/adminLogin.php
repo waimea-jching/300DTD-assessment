@@ -11,5 +11,3 @@
     <input type="text" name='key' value='Creation Key...'>
     <input type="submit" value="Create">
 </form>
-
-<!-- <p><a href="/adminSignup" role="button">Admin Creation</a></p> -->

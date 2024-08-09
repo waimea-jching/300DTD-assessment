@@ -39,6 +39,7 @@ else {
     $_SESSION['admin']['loggedIn'] = true;
     $_SESSION['admin']['forename'] = $userData['forename'];
     $_SESSION['admin']['surname'] = $userData['surname'];
+    $_SESSION['canCreateAccount'] = false;
 
     header('location: welcome');
 }

@@ -58,11 +58,11 @@ Replace this text with notes describing how you acted upon the user feedback: ma
 
 ### 6/08/24
 
-Admin login and signup
+Admin login and sign up
 
 ![alt text](<images/library home page.png>)
 ![alt text](<images/admin login (creation key).png>)
-I started creating a sytem where the admin or teachers would need a key to create and login into there admin accounts to tweak and modify the game making sure that no student would be able to get in and change the game without permission and a key.
+I started creating a system where the admin or teachers would need a key to create and login into there admin accounts to tweak and modify the game making sure that no student would be able to get in and change the game without permission and a key.
 
 > The system is to complicated and is very clunky to use. A system where you can just simply sign in with a username and password and create an admin account freely but a created account has to be set to to admin status by me through the database or an existing admin.
 
@@ -70,12 +70,16 @@ I ended up changing the whole admin set up by going off the user feedback and us
 ![alt text](<images/admin login(sign in).png>)
 ![alt text](<images/admin signup.png>)
 
-### 07/08/24
+### 07/08/24 & 9/08/24
 
 Admin Sign up
 
-![alt text](<images/Screenshot 2024-08-07 101710.png>)
-![alt text](<images/Screenshot 2024-08-07 101720.png>)
+![alt text](images/db.png)
+![alt text](<images/keys table.png>)
+I brought back the creation key and have streamlined it to meet the user feedbacks requirements. I started with making the keys table in the database with a hash field (varchar wit 255 characters).
+
+![alt text](<images/Screenshot 2024-08-09 130802.png>)
+![alt text](<images/Screenshot 2024-08-09 130813.png>)
 
 
 > Replace this text with any user feedback / comments

@@ -11,7 +11,7 @@
         <header id="welcome-header"> 
             <?php
                 if (!$loggedIn) echo '<a href="/adminLogin" role="button">ADMIN</a>';
-                if ($loggedIn) '<a href="/logout" role="button">LOGOUT</a>';
+                else echo '<a href="/logout" role="button">LOGOUT</a>';
             ?>
         </header>
 
