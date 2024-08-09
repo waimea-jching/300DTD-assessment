@@ -78,9 +78,57 @@ Admin Sign up
 ![alt text](<images/keys table.png>)
 I brought back the creation key and have streamlined it to meet the user feedbacks requirements. I started with making the keys table in the database with a hash field (varchar wit 255 characters).
 
-![alt text](<images/Screenshot 2024-08-09 130802.png>)
-![alt text](<images/Screenshot 2024-08-09 130813.png>)
+![alt text](<images/admin access 1.png>)
+![alt text](<images/admin access code.png>)
+![alt text](<images/admin creation.png>)
+![alt text](<images/admin creation form.png>)
+![alt text](<images/admin access html.png>)
+![alt text](<images/validate key php.png>)
+![alt text](<images/admin creation form.png>)
+![alt text](<images/admin login php.png>)
+![alt text](<images/admin signup php.png>)
+There is now the admin login form and creation key input together on the admin access page and both are working very well. With the creation key you can access the admin creation page to be able to make an admin account. When a user either makes an account or logs in they are taken back to the welcome page with admin access to the game, this is done through php sessions.
+![alt text](<images/php session example.png>)
 
+> Replace this text with any user feedback / comments
+
+Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+> Replace this text with any user feedback / comments
+
+Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+> Replace this text with any user feedback / comments
+
+Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+
+> Replace this text with any user feedback / comments
+
+Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+
+### DATE HERE
+
+Replace this test with what you are working on
+
+Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
 
 > Replace this text with any user feedback / comments
 
