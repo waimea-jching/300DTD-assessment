@@ -1,5 +1,9 @@
 <h1>ADMIN ACCESS</h1>
 
+<?php
+    $_SESSION['canCreateAccount'] = false;
+?>
+
 <form action="login" id="adminLoginForm">
     <input type="text" name='username' value='username...'>
     <input type="text" name='pass' value='password...'>

@@ -94,11 +94,16 @@ There is now the admin login form and creation key input together on the admin a
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 13/08/24
 
-Replace this test with what you are working on
+Setting up admin tools
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](<images/Screenshot 2024-08-13 115942.png>)
+![alt text](<images/Screenshot 2024-08-13 115952.png>)
+![alt text](<images/Screenshot 2024-08-13 120007.png>)
+I very quickly updated the home page to show the link for the admin panel and display there information to let the admin know that they are logged in and have access to the future tools to be made.
+![alt text](<images/Screenshot 2024-08-13 120629.png>)
+also added this little block of code around pages related to admin account creation and logging into further secure the feature to make an admin account.
 
 > Replace this text with any user feedback / comments
 

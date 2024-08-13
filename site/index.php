@@ -34,6 +34,7 @@ $router->route(GET, PAGE, '/welcome', 'pages/welcome.php', 'layouts/welcome_layo
 $router->route(GET, PAGE, '/intro', 'pages/introduction.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/adminLogin', 'pages/adminLogin.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/adminSignup', 'pages/adminSignup.php', 'layouts/hero.php');
+$router->route(GET, PAGE, '/adminPanel', 'pages/adminPanel.php');
 $router->route(GET, PAGE, '/login', 'actions/processLogin.php');
 $router->route(GET, PAGE, '/validateKey', 'actions/validateKey.php');
 $router->route(GET, PAGE, '/signup', 'actions/processSignup.php');
