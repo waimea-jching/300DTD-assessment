@@ -8,9 +8,7 @@
     <body>
 
         <main id="libraryMapMain">
-
             <?php require $pageContent; ?>
-        
         </main>
             
     </body>
