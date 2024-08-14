@@ -109,11 +109,13 @@ also added this little block of code around pages related to admin account creat
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
-### DATE HERE
+### 15/08/24
 
-Replace this test with what you are working on
+Library Introduction and map
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](<images/Screenshot 2024-08-15 001621.png>)
+![alt text](<images/Screenshot 2024-08-15 001631.png>)
+i added a quick little introduction blurb and then made and put in the library map which shows all the rooms that are needed to know.
 
 > Replace this text with any user feedback / comments
 

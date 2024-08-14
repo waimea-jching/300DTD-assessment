@@ -121,13 +121,18 @@ article {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #libraryMapContainer .child {
-    width: 50%;
+    width: 40%;
 }
 
 #libraryMap {
     border-radius: 6px;
+}
+
+#mapDetails{
+    display: flex;
+    flex-direction: column;
 }

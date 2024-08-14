@@ -40,6 +40,7 @@ $router->route(GET, PAGE, '/validateKey', 'actions/validateKey.php');
 $router->route(GET, PAGE, '/signup', 'actions/processSignup.php');
 $router->route(GET, PAGE, '/logout', 'actions/logout.php');
 $router->route(GET, PAGE, '/libraryMap', 'pages/libraryMap.php', 'layouts/libraryMap_layout.php');
+$router->route(GET, HTMX, '/areaDesc', 'components/areaDesc.php');
 
 //-------------------------------------------------------------
 // Generate the required view
