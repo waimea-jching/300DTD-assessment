@@ -115,6 +115,11 @@ article {
     width: 15rem;
 }
 
+/* Errors ------------------------------------------------*/
+.error {
+    color: #eb3f0f;
+}
+
 /* Library Map Page ------------------------------------------------*/
 
 
@@ -160,5 +165,21 @@ article {
 }
 
 #beginButton {
-    
+    background-color: #eb3f0f;
+    border-color: #eb3f0f;
+}
+
+/* Welcome Page ------------------------------------------------*/
+#welcomeHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#welcomeHeader div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
 }

@@ -11,7 +11,7 @@
 
     <body>
 
-        <header id="welcome-header"> 
+        <header id="welcomeHeader"> 
             <?php
                 if (!$loggedIn) {
                     echo '<a href="/adminLogin" role="button">Admin Login</a>';
@@ -19,8 +19,10 @@
                 else {
                     echo '<h4>ADMIN: ' . $name . '</h4>';
 
+                    echo '<div>';
                     echo '<a href="/adminPanel" role="button">Admin Panel</a>';
                     echo '<a href="/logout" role="button">Logout</a>';
+                    echo '</div>';
                 }
             ?>
         </header>

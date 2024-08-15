@@ -42,6 +42,7 @@ $router->route(GET, PAGE, '/logout', 'actions/logout.php');
 $router->route(GET, PAGE, '/libraryMap', 'pages/libraryMap.php', 'layouts/libraryMap_layout.php');
 $router->route(GET, HTMX, '/areaDesc', 'components/areaDesc.php');
 $router->route(GET, HTMX, '/descriptionBoxText', 'components/descriptionBoxText.html');
+$router->route(GET, PAGE, '/questions', 'pages/questions.php', 'layouts/hero.php');
 
 //-------------------------------------------------------------
 // Generate the required view

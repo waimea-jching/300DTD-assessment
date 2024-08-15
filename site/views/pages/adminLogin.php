@@ -2,9 +2,15 @@
 
 <?php
     $_SESSION['canCreateAccount'] = false;
+    $error = $_SESSION['adminLogin']['error'] ?? false;
 ?>
 
 <form action="login" id="adminLoginForm">
+    <?php
+        if ($error != false){
+            echo '<p class="error">'.$error.'</p>';
+        }
+    ?>
     <input type="text" name='username' value='username...'>
     <input type="text" name='pass' value='password...'>
 

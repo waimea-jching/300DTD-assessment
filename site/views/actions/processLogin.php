@@ -13,14 +13,23 @@ $userData = $stmt->fetch();
 
 consoleLog($userData);
 
-if (isset($userData)){
+if ($userData){
     if (password_verify($pass, $userData['hash'])){
         $_SESSION['admin']['loggedIn'] = true;
         $_SESSION['admin']['forename'] = $userData['forename'];
         $_SESSION['admin']['surname'] = $userData['surname'];
 
+        $_SESSION['adminLogin']['error'] = false;
         header('location: welcome');
     }
+    else {
+        $_SESSION['adminLogin']['error'] = 'wrong password';
+        header('location: adminLogin');
+    }
+}
+else {
+    $_SESSION['adminLogin']['error'] = 'username does not exist!';
+    header('location: adminLogin');
 }
 
 ?>
