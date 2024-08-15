@@ -34,7 +34,7 @@ $router->route(GET, PAGE, '/welcome', 'pages/welcome.php', 'layouts/welcome_layo
 $router->route(GET, PAGE, '/intro', 'pages/introduction.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/adminLogin', 'pages/adminLogin.php', 'layouts/hero.php');
 $router->route(GET, PAGE, '/adminSignup', 'pages/adminSignup.php', 'layouts/hero.php');
-$router->route(GET, PAGE, '/adminPanel', 'pages/adminPanel.php');
+$router->route(GET, PAGE, '/adminPanel', 'pages/adminPanel.php', 'layouts/adminPanel_layout.php');
 $router->route(GET, PAGE, '/login', 'actions/processLogin.php');
 $router->route(GET, PAGE, '/validateKey', 'actions/validateKey.php');
 $router->route(GET, PAGE, '/signup', 'actions/processSignup.php');
@@ -43,6 +43,11 @@ $router->route(GET, PAGE, '/libraryMap', 'pages/libraryMap.php', 'layouts/librar
 $router->route(GET, HTMX, '/areaDesc', 'components/areaDesc.php');
 $router->route(GET, HTMX, '/descriptionBoxText', 'components/descriptionBoxText.html');
 $router->route(GET, PAGE, '/questions', 'pages/questions.php', 'layouts/hero.php');
+$router->route(GET, PAGE, '/deleteQuestion', 'actions/deleteQuestion.php');
+$router->route(GET, PAGE, '/createQuestion', 'pages/createQuestion.php', 'layouts/hero.php');
+$router->route(GET, PAGE, '/processQuestion', 'actions/processQuestion.php');
+$router->route(GET, PAGE, '/addAnswer', 'actions/addAnswer.php');
+$router->route(GET, PAGE, '/setCorrectAnswer', 'actions/setCorrectAnswer.php');
 
 //-------------------------------------------------------------
 // Generate the required view

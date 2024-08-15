@@ -9,7 +9,7 @@
 ?>
 
 <form action="signup" id="adminLoginForm">
-    <?php echo '<p>'.$userError.'</p>'; ?>
+    <?php echo '<p class="error">'.$userError.'</p>'; ?>
     <input type="text" name='user' value='username...'>
     <input type="text" name='pass' value='password...'>
 

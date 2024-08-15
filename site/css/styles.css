@@ -36,13 +36,6 @@ body {
     color: inherit;
 }
 
-#welcome-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-
-
 /* FOOTER ---------------------------------------- */
 
 #main-footer {
@@ -174,7 +167,7 @@ article {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     gap: 1rem;
 }
 
