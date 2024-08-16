@@ -211,3 +211,35 @@ article {
 .adminQuestions div {
     width: 30%;
 }
+
+/* Questions ------------------------------------------------*/
+
+#questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+#questions img {
+    width: 65%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+#answerBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#questions div {
+    background-color: #1f2126;
+    padding: 1.5rem;
+    border-radius: 4px;
+    width: 50%;
+}
+
+#questions p {
+    margin: 0;
+}

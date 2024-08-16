@@ -21,6 +21,7 @@ $libraryAreas = $stmt->fetchAll();
 $_SESSION['game']['questionCount'] = count($questions);
 $currentQuestion = $_SESSION['game']['currentQuestion'];
 
+echo '<div id="questions">';
 echo '<div>';
 foreach ($libraryAreas as $area){
     if ($area['id'] == $questions[$currentQuestion]['areaId']){
@@ -32,7 +33,7 @@ echo '<h2>'.$questions[$currentQuestion]['title'].'</h2>';
 echo '<p>'.$questions[$currentQuestion]['text'].'</p>';
 echo '</div>';
 
-echo '<div>';
+echo '<div id="answerBox">';
 if ($_SESSION['game']['error']['wrongAnswer'] == true){
     echo '<p class="error>Wrong Answer</p>';
 }
@@ -41,5 +42,6 @@ foreach ($answers as $answer){
         echo '<a href="/checkAnswer?answerId='.$answer['id'].'&questionId='.$questions[$currentQuestion]['id'].'" role="button">'.$answer['text'].'</a>';
     }
 }
+echo '</div>';
 echo '</div>';
 ?>
