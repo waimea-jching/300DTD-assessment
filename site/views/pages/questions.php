@@ -35,7 +35,7 @@ echo '</div>';
 
 echo '<div id="answerBox">';
 if ($_SESSION['game']['error']['wrongAnswer'] == true){
-    echo '<p class="error>Wrong Answer</p>';
+    echo '<p class="error">Wrong Answer</p>';
 }
 foreach ($answers as $answer){
     if ($answer['questionId'] == $questions[$currentQuestion]['id']){
