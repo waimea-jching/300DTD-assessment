@@ -21,9 +21,6 @@ $libraryAreas = $stmt->fetchAll();
 $_SESSION['game']['questionCount'] = count($questions);
 $currentQuestion = $_SESSION['game']['currentQuestion'];
 
-consoleLog($currentQuestion);
-consoleLog(count($questions));
-
 echo '<div>';
 foreach ($libraryAreas as $area){
     if ($area['id'] == $questions[$currentQuestion]['areaId']){
