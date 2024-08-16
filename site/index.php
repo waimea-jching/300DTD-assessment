@@ -48,6 +48,8 @@ $router->route(GET, PAGE, '/createQuestion', 'pages/createQuestion.php', 'layout
 $router->route(GET, PAGE, '/processQuestion', 'actions/processQuestion.php');
 $router->route(GET, PAGE, '/addAnswer', 'actions/addAnswer.php');
 $router->route(GET, PAGE, '/setCorrectAnswer', 'actions/setCorrectAnswer.php');
+$router->route(GET, PAGE, '/checkAnswer', 'actions/checkAnswer.php');
+$router->route(GET, PAGE, '/completed', 'pages/completed.php', 'layouts/hero.php');
 
 //-------------------------------------------------------------
 // Generate the required view
