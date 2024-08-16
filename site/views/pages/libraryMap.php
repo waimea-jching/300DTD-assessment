@@ -2,8 +2,9 @@
     <div class="child" id="libraryButtons">
         <div id="mapDetails">
             <?php
-
             require_once 'lib/db.php';
+
+            $_SESSION['game']['currentQuestion'] = 0;
 
             $db = connectToDB();
 
