@@ -6,16 +6,12 @@
     <?php require '_head.php'; ?>
 
     <body>
-        
-
 
         <main>
 
             <?php require $pageContent; ?>
         
         </main>
-
-        
 
     </body>
 

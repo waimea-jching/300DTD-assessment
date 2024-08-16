@@ -1,3 +1,4 @@
+<a href="/welcome">back</a>
 <h1>Library Questions</h1>
 
 <a href="/createQuestion" role="button">Create Question</a>
@@ -23,8 +24,8 @@ $stmt->execute();
 $libraryAreas = $stmt->fetchAll();
 
 foreach ($questions as $question){
-    echo '<h4>'.$question['title'].'</h4>';
-    echo '<div>';
+    echo '<h3 class="adminQuestionTitle">'.$question['title'].'</h3>';
+    echo '<div class="adminQuestions">';
 
     echo '<div>';
     echo '<h5>Question Text:</h5>';
@@ -35,7 +36,12 @@ foreach ($questions as $question){
     echo '<h5>Answers:</h5>';
     foreach ($answers as $answer){
         if ($answer['questionId'] == $question['id']){
-            echo '<p>'.$answer['text'].'<a href="/setCorrectAnswer?answerId='.$answer['id'].'&questionId='.$question['id'].'" role="button">Set</a></p>';
+            if ($answer['id'] == $question['correctAnswer']){
+                echo '<p>'.$answer['text'].'</p>';
+            }
+            else {
+                echo '<p>'.$answer['text'].'<a href="/setCorrectAnswer?answerId='.$answer['id'].'&questionId='.$question['id'].'" class="answerSetButtons" role="button">Set</a></p>';
+            }
         }
     }
     echo '<form action="addAnswer">';
@@ -53,7 +59,7 @@ foreach ($questions as $question){
     }
     echo '</div>';
 
-    echo '<a href="/deleteQuestion?questionId='.$question['id'].'" role="button">Delete</a>';
+    echo '<a hx-confirm="Are you sure you want to delete?" href="/deleteQuestion?questionId='.$question['id'].'" class="deleteButtons" role="button">Delete</a>';
     echo '</div>';
 }
 

@@ -113,6 +113,27 @@ article {
     color: #eb3f0f;
 }
 
+/* Buttons ------------------------------------------------*/
+#beginButton {
+    background-color: #eb3f0f;
+    border-color: #eb3f0f;
+}
+
+.deleteButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #eb3f0f;
+    border-color: #eb3f0f;
+}
+
+.answerSetButtons {
+    padding: 0.3rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
 /* Library Map Page ------------------------------------------------*/
 
 
@@ -157,11 +178,6 @@ article {
     color: #fff;
 }
 
-#beginButton {
-    background-color: #eb3f0f;
-    border-color: #eb3f0f;
-}
-
 /* Welcome Page ------------------------------------------------*/
 #welcomeHeader {
     display: flex;
@@ -175,4 +191,23 @@ article {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+/* Admin Panel ------------------------------------------------*/
+.adminQuestions {
+    background-color: #1f2126;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 6px;
+}
+
+.adminQuestionTitle {
+    margin-top: 3rem;
+}
+
+.adminQuestions div {
+    width: 30%;
 }
