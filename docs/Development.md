@@ -116,6 +116,10 @@ Library Introduction and map
 ![alt text](<images/Screenshot 2024-08-15 001621.png>)
 ![alt text](<images/Screenshot 2024-08-15 001631.png>)
 i added a quick little introduction blurb and then made and put in the library map which shows all the rooms that are needed to know.
+![alt text](<images/Screenshot 2024-08-23 145905.png>)
+![alt text](<images/Screenshot 2024-08-23 145914.png>)
+![alt text](<images/Screenshot 2024-08-23 145921.png>)
+i also added HTMX buttons when clicked show information about the room that they label to further give an explanation about said area
 
 > Replace this text with any user feedback / comments
 
