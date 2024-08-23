@@ -144,21 +144,25 @@ for the most of the web site to help it come across as neat as possible and easy
 for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges
 
 ### Review of Accessibility
-I used a color scheme that is easy on the eyes and allows text and links to stand out allowing for good navigation and accessibility of the website. There eis also alt text for the images in the case of a bad connection or there is trouble loading the images from the database or server
+
+I used a color scheme that is easy on the eyes and allows text and links to stand out allowing for good navigation and accessibility of the website. There eis also alt text for the images in the case of a bad connection or there is trouble loading the images from the database or server. Text is also in a clear font and a contrasting colour to the background to aid in color blindness and dyslexia.
 ![alt text](<images/Screenshot 2024-08-23 234312.png>)
 ![alt text](<images/Screenshot 2024-08-24 005118.png>)
 ![alt text](<images/welcome !loggedin.png>)
 ![alt text](<images/welcome loggedin.png>)
 
-### Review of UX PRINCIPLE NAME HERE
+### Review of Visibility of System Status
+
+![alt text](images/error1.png)
+![alt text](images/error2.png)
+![alt text](images/error3.png)
+to show system status i make sure to show errors and warnings so that users know what has happened with there input and that they know what they are needed to do to make a complete action.
+
+### Review of Error Prevention
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of UX PRINCIPLE NAME HERE
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of UX PRINCIPLE NAME HERE
+### Review of Aesthetic and Minimalist Design
 
 Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
