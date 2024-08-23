@@ -126,8 +126,6 @@ THe end product meets the users requirements because the page has a mixture of p
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
-
 The requirements and list of features was creating a "gamey" feel with penalising on incorrect answers and encouraging a competitive learning environment that can all be manipulated by an admin with an array of admin tools and separating questions into there respective areas of the library. My system has implemented these key features well by having the questions penalise the user and give strict warning when the incorrect answer is selected as well as create admin tools that can be used very extensively to shape the questions that are presented to the users.
 
 ### Review of Aesthetics
@@ -141,7 +139,7 @@ for the most of the web site to help it come across as neat as possible and easy
 
 ![alt text](<images/Screenshot 2024-08-13 120629.png>)
 ![alt text](<images/admin creation form.png>)
-for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges such as not being able to type the route for the admin creation page into the URL to skip over to te page it is hard coded into the website to not allow users onto the creation page with out the key which only i have.
+for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges such as not being able to type the route for the admin creation page into the URL to skip over to te page it is hard coded into the website to not allow users onto the creation page with out the key which i and admins only have.
 
 ### Review of Accessibility
 
