@@ -103,7 +103,13 @@ Moving froward this will go hand and hand with my aesthetic relevant implication
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133040.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133048.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133109.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133120.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133127.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133143.png>)
+![alt text](<images/Final Ui and Design/Screenshot 2024-08-23 133157.png>)
 
 ### User Interface Design
 

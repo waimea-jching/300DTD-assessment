@@ -23,13 +23,15 @@ $currentQuestion = $_SESSION['game']['currentQuestion'];
 
 echo '<div id="questions">';
 echo '<div>';
+echo '<h3>Question: '.($currentQuestion + 1).'</h3>';
+
 foreach ($libraryAreas as $area){
     if ($area['id'] == $questions[$currentQuestion]['areaId']){
         echo '<img src="images/library_maps/'.$area['name'].'.png" alt="library map">';
     }
 }
 
-echo '<h2>'.$questions[$currentQuestion]['title'].'</h2>';
+echo '<h3>'.$questions[$currentQuestion]['title'].'</h3>';
 echo '<p>'.$questions[$currentQuestion]['text'].'</p>';
 echo '</div>';
 
