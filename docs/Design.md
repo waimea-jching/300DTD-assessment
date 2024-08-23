@@ -141,7 +141,7 @@ for the most of the web site to help it come across as neat as possible and easy
 
 ![alt text](<images/Screenshot 2024-08-13 120629.png>)
 ![alt text](<images/admin creation form.png>)
-for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges
+for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges such as not being able to type the route for the admin creation page into the URL to skip over to te page it is hard coded into the website to not allow users onto the creation page with out the key which only i have.
 
 ### Review of Accessibility
 
@@ -153,16 +153,21 @@ I used a color scheme that is easy on the eyes and allows text and links to stan
 
 ### Review of Visibility of System Status
 
+![alt text](images/error4.png)
 ![alt text](images/error1.png)
 ![alt text](images/error2.png)
 ![alt text](images/error3.png)
-to show system status i make sure to show errors and warnings so that users know what has happened with there input and that they know what they are needed to do to make a complete action.
+to show system status i make sure to show status messages so that users know what has happened with there input and that they know what they are needed to do to make a complete action. Like in this case i have added a message to display when the wrong answer has been selected or when you have entered wrong details into a form that cant or wont be processed well by the server.
 
 ### Review of Error Prevention
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+For error prevention there is plenty of warnings and errors that i have coded in so that users cant make mistakes that will effect the whole website and there experience of the website, such as an error for when you have put in the wrong password or username or when you are making an account and you have entered a username that already exists.
+![alt text](images/error1.png)
+![alt text](images/error2.png)
+![alt text](images/error3.png)
 
 ### Review of Aesthetic and Minimalist Design
 
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
+To keep a minimalist design and have less clutter within the page i have through out my web-page made sure to only show information to the user that is necessary and keep that information in tidy fonts and headings depending on the urgency of the information or how important it is, as well as keep a simple font and font size for ease of reading and a nice color scheme to further tidy the information presented to the user.
+![alt text](<images/Screenshot 2024-08-23 234312.png>)
+For the questions page i have made the question number and question title headings so that they stand out to the user but made sure to keep the rest of the information valid and in good view of the user.
