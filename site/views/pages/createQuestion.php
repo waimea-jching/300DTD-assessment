@@ -16,7 +16,7 @@ $libraryAreas = $stmt->fetchAll();
     <input type="text" name='title'>
 
     <label for="desc">Description</label>
-    <textarea name="desc"></textarea>
+    <textarea id= "desc" name="desc"></textarea>
 
     <?php
     echo '<label for="area">Library Area</label>';

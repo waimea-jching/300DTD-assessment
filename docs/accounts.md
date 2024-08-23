@@ -10,6 +10,11 @@ Assessment Standards: **91902** and **91903**
 -------------------------------------------------
 
 ## Accounts to use
+
+Creation Key: 8018
+
+------------------------------------------
+
 Username: admin
 
 Password: admin
