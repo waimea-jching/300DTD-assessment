@@ -13,6 +13,7 @@ $stmt = $db->prepare($query);
 $stmt->execute([]);
 $usersData = $stmt->fetchAll();
 
+//check if user already exists
 $userExists = false;
 foreach ($usersData as $userData){
     if ($user == $userData['username']){
@@ -20,6 +21,7 @@ foreach ($usersData as $userData){
     }
 }
 
+//if user exists throw error
 if($userExists) {
     $_SESSION['adminSignup']['username']['error'] = 'Username Taken!! try another one';
     header('location: adminSignup');

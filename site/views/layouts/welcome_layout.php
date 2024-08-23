@@ -13,6 +13,7 @@
 
         <header id="welcomeHeader"> 
             <?php
+                //check to see if logged in and show the correct buttons if so
                 if (!$loggedIn) {
                     echo '<a href="/adminLogin" role="button">Admin Login</a>';
                 }

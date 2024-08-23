@@ -1,6 +1,7 @@
 <h1>ADMIN CREATION</h1>
 
 <?php 
+    //Set variables in the session
     $userError = $_SESSION['adminSignup']['username']['error'] ?? '';  
 
     $allowed = $_SESSION['canCreateAccount'] ?? false;

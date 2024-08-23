@@ -23,6 +23,7 @@ $stmt = $db->prepare($query);
 $stmt->execute();
 $libraryAreas = $stmt->fetchAll();
 
+//display each question and there details as well as divide information in to groups to be styled
 foreach ($questions as $question){
     echo '<h3 class="adminQuestionTitle">'.$question['title'].'</h3>';
     echo '<div class="adminQuestions">';
@@ -34,6 +35,7 @@ foreach ($questions as $question){
 
     echo '<div>';
     echo '<h5>Answers:</h5>';
+    //echo each answer for that question and if not the correct answer also show a button to set the correct answer
     foreach ($answers as $answer){
         if ($answer['questionId'] == $question['id']){
             if ($answer['id'] == $question['correctAnswer']){
@@ -52,6 +54,7 @@ foreach ($questions as $question){
 
     echo '<div>';
     echo '<h5>Library Area:</h5>';
+    //go through all areas and to match the area to the question so it can be displayed
     foreach ($libraryAreas as $area){
         if ($area['id'] == $question['areaId']){
             echo '<p>'.$area['name'].'</p>';

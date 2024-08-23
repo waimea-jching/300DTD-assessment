@@ -13,7 +13,10 @@ $userData = $stmt->fetch();
 
 consoleLog($userData);
 
+//CHeck to see if a user was found that matches username
 if ($userData){
+
+    //if password correct set session details
     if (password_verify($pass, $userData['hash'])){
         $_SESSION['admin']['loggedIn'] = true;
         $_SESSION['admin']['forename'] = $userData['forename'];
