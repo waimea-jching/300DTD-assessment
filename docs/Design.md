@@ -122,23 +122,33 @@ https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jching_waimea_school_nz/
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+THe end product meets the users requirements because the page has a mixture of php routing and HTMX to make certain parts of the page efficient and fast without having to refresh the page giving instant feedback and results to suit the need of a reactive and engaging quick page to keep up with the end users expectations. THe end users this page was intended for where the year 9's in the age range 13-14 years old.
 
 ### Meeting the System Requirements
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+The requirements and list of features was creating a "gamey" feel with penalising on incorrect answers and encouraging a competitive learning environment that can all be manipulated by an admin with an array of admin tools and separating questions into there respective areas of the library. My system has implemented these key features well by having the questions penalise the user and give strict warning when the incorrect answer is selected as well as create admin tools that can be used very extensively to shape the questions that are presented to the users.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Aesthetics
 
-### Review of IMPLICATION NAME HERE
+![alt text](<images/Screenshot 2024-08-24 005118.png>)
+![alt text](<images/Screenshot 2024-08-24 005128.png>)
+For the relevant implication of aesthetics i made sure to use a very simple clean and tidy color scheme
+for the most of the web site to help it come across as neat as possible and easy to follow and interpret the majority of the buttons are a cool shade of blue and if i ever needed to draw attention to a certain button or important feature i used a more vibrant highlight color of red to draw the users attention to that area.
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Functionality
 
-### Review of IMPLICATION NAME HERE
+![alt text](<images/Screenshot 2024-08-13 120629.png>)
+![alt text](<images/admin creation form.png>)
+for functionality i have been through lots of development and bug fixing so i have lots of little snippets of code which help to create a bug free experience and also help with the security of the admin privileges
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Accessibility
+I used a color scheme that is easy on the eyes and allows text and links to stand out allowing for good navigation and accessibility of the website. There eis also alt text for the images in the case of a bad connection or there is trouble loading the images from the database or server
+![alt text](<images/Screenshot 2024-08-23 234312.png>)
+![alt text](<images/Screenshot 2024-08-24 005118.png>)
+![alt text](<images/welcome !loggedin.png>)
+![alt text](<images/welcome loggedin.png>)
 
 ### Review of UX PRINCIPLE NAME HERE
 
