@@ -146,14 +146,22 @@ for the validation i have had to filter all the HTMX as it throws an error.
 
 ![alt text](images/image.png)
 ![alt text](<images/Screenshot 2024-08-24 000040.png>)
-The welcome page and admin panel where all validated
+The welcome page and admin panel where all validated.
 
-### DATE HERE
+![alt text](<images/Screenshot 2024-08-24 000312.png>)
+The create question through some errors so i made the labels for attribute match the inputs id's to fix the error.
+![alt text](<images/Screenshot 2024-08-24 000630.png>)
 
-Replace this test with what you are working on
+![alt text](<images/Screenshot 2024-08-24 000730.png>)
+The library introduction page was all validated.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![alt text](<images/Screenshot 2024-08-24 000839.png>)
+The question page through an error because there were soaces in image path.
+![alt text](<images/Screenshot 2024-08-24 001041.png>)
 
-> Replace this text with any user feedback / comments
+![alt text](<images/Screenshot 2024-08-24 001055.png>)
+The congratulations page was all good.
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+![alt text](<images/Screenshot 2024-08-24 001209.png>)
+![alt text](<images/Screenshot 2024-08-24 001259.png>)
+admin sign up and sign in page was all validated.
